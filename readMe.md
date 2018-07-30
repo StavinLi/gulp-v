@@ -14,8 +14,8 @@
 ### gulp-rev-collector\index.js
 `40行 path.basename(json[key]).replace(new RegExp( opts.revSuffix ), '' )
 更新为:  path.basename(json[key]).split('?')[0] 
-
-
+`
+`
 第146\170行 regexp: new RegExp( '([\/\\\\\'"])' + pattern, 'g' ),
 更新为: regexp: new RegExp( '([\/\\\\\'"])' + pattern+'(\\?v=\\w{10})?', 'g' ),
 `
